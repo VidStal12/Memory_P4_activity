@@ -1,0 +1,26 @@
+Chronologic VCS simulator copyright 1991-2025
+Contains Synopsys proprietary information.
+Compiler version X-2025.06-SP2-6_Full64; Runtime version X-2025.06-SP2-6_Full64;  Oct 27 19:50 2026
+*Verdi* Loading libsscore_vcs202506.so
+FSDB Dumper for VCS, Release Verdi_Y-2026.03-SP2, Linux x86_64/64bit, 08/29/2026
+(C) 1996 - 2026 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'dump_sram.fsdb'
+*Verdi* : Begin traversing the scope (tb_Top_SRAM), layer (0).
+*Verdi* : Enable +all dumping.
+*Verdi* : End of traversing.
+ INICIANDO SIMULACION DE MEMORIA SRAM (256 Direcciones x 8 Bits)
+[PASS] Reset Inicial Addr 0x00 | Addr: 0x00 (00000000) | Leido: 0x00 (00000000) | Esperado: 0x00
+[PASS] Reset Inicial Addr 0x0B | Addr: 0x0b (00001011) | Leido: 0x00 (00000000) | Esperado: 0x00
+[PASS] Lectura Celda 0x0B | Addr: 0x0b (00001011) | Leido: 0xbc (10111100) | Esperado: 0xbc
+[PASS] Lectura Celda 0xA5 | Addr: 0xa5 (10100101) | Leido: 0x5a (01011010) | Esperado: 0x5a
+[PASS] Lectura Celda 0x3C | Addr: 0x3c (00111100) | Leido: 0xf0 (11110000) | Esperado: 0xf0
+[PASS] Lectura Celda 0xFF | Addr: 0xff (11111111) | Leido: 0xc3 (11000011) | Esperado: 0xc3
+[PASS] Aislamiento Celda Vecina 0x0A | Addr: 0x0a (00001010) | Leido: 0x00 (00000000) | Esperado: 0x00
+[PASS] Sobrescritura Celda 0x0B | Addr: 0x0b (00001011) | Leido: 0x42 (01000010) | Esperado: 0x42
+ RESUMEN FINAL: 8 PRUEBAS EXITOSAS [PASS] | 0 FALLIDAS [FAIL]
+$finish called from file "tb_TOP_SRAM.sv", line 163.
+$finish at simulation time               495000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 495000 ps
+CPU Time:      1.130 seconds;       Data structure size:   0.5Mb
+Tue Oct 27 19:50:37 2026
